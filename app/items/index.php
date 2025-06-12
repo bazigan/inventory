@@ -1,6 +1,6 @@
 <?php
-require_once 'app/config/database.php';
-include 'app/includes/header.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/app/config/database.php';
+include __DIR__ . '/../includes/header.php';
 
 // Ambil semua data barang
 $stmt = $pdo->query("SELECT * FROM items ORDER BY created_at DESC");
