@@ -1,0 +1,22 @@
+name: inventory
+
+services:
+  app:
+    image: inventory
+    build: ./app
+    ports:
+    - "8085:80"
+    links:
+    - db
+
+  db:
+    image: mariadb
+    environment:
+    - "MARIADB_ROOT_PASSWORD:admin123"
+    ports:
+    - "3307:3306"
+    volumes:
+    - "vol-db:/var/lib/mysql"
+
+volumes:
+  vol-db:
