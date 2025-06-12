@@ -1,6 +1,6 @@
 <?php
-require_once '../../config/database.php';
-include '../includes/header.php';
+require_once 'app/config/database.php';
+include 'app/includes/header.php';
 
 // Ambil semua data barang
 $stmt = $pdo->query("SELECT * FROM items ORDER BY created_at DESC");
@@ -40,4 +40,4 @@ $items = $stmt->fetchAll();
     </tbody>
 </table>
 
-<?php include '../includes/footer.php'; ?>
+<?php include 'app/includes/footer.php'; ?>

@@ -7,7 +7,7 @@ include 'includes/header.php';
     <p class="lead">Sistem sederhana untuk mengelola inventory barang.</p>
     <hr class="my-4">
     <p>Gunakan menu di atas untuk mengelola data barang.</p>
-    <a class="btn btn-primary btn-lg" href="items/index.php" role="button">Lihat Daftar Barang</a>
+    <a class="btn btn-primary btn-lg" href="app/items/index.php" role="button">Lihat Daftar Barang</a>
 </div>
 
 <?php
