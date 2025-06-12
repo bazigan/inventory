@@ -1,5 +1,5 @@
 <?php
-require_once '../../config/database.php';
+require_once 'app/config/database.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name = $_POST['name'];
@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     exit;
 }
 
-include '../includes/header.php';
+include 'app/includes/header.php';
 ?>
 
 <h2>Tambah Barang Baru</h2>
@@ -40,4 +40,4 @@ include '../includes/header.php';
     <a href="index.php" class="btn btn-secondary">Kembali</a>
 </form>
 
-<?php include '../includes/footer.php'; ?>
+<?php include 'app/includes/footer.php'; ?>
