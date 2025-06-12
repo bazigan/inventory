@@ -12,7 +12,7 @@ services:
   db:
     image: mariadb
     environment:
-    - "MARIADB_ROOT_PASSWORD:admin123"
+    - MARIADB_ROOT_PASSWORD: "admin123"
     ports:
     - "3307:3306"
     volumes:
