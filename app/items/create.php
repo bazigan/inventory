@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     exit;
 }
 
-include 'app/includes/header.php';
+include '../includes/header.php';
 ?>
 
 <h2>Tambah Barang Baru</h2>
@@ -39,4 +39,4 @@ include 'app/includes/header.php';
     <a href="index.php" class="btn btn-secondary">Kembali</a>
 </form>
 
-<?php include 'app/includes/footer.php'; ?>
+<?php include '../includes/footer.php'; ?>

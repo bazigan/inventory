@@ -40,4 +40,4 @@ $items = $stmt->fetchAll();
     </tbody>
 </table>
 
-<?php include 'app/includes/footer.php'; ?>
+<?php include '../includes/footer.php'; ?>
