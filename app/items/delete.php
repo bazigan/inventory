@@ -1,5 +1,5 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . '/inventory/config/database.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/config/database.php';
 if (!isset($_GET['id'])) {
     header("Location: index.php");
     exit;

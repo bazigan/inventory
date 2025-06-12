@@ -1,5 +1,5 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . '/app/config/database.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/config/database.php';
 include __DIR__ . '/../includes/header.php';
 
 // Ambil semua data barang
